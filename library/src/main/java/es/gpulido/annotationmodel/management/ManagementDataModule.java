@@ -34,7 +34,7 @@ import static es.gpulido.annotationmodel.helper.Utils.EmptyUUID;
 /**
  * Created by gpt on 22/05/16.
  */
-@RealmModule(library = false, classes = {AnnotationServer.class})
+@RealmModule(library = true, classes = {AnnotationServer.class})
 public class ManagementDataModule {
 
     public static Realm getManagementRealm()

@@ -28,7 +28,7 @@ import timber.log.Timber;
 /**
  * Created by gpt on 22/05/16.
  */
-@RealmModule(library = false, classes = {Serie.class, SerieRound.class})
+@RealmModule(library = true, classes = {Serie.class, SerieRound.class})
 public class SerieDataModule {
 
     public static  RandomBasedGenerator UUIDGenerator = Generators.randomBasedGenerator(new Random(1000));

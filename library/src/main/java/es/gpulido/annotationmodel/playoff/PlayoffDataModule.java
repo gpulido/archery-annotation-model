@@ -31,7 +31,7 @@ import timber.log.Timber;
  * Created by GGPT on 27/03/2017.
  */
 
-@RealmModule(library = false, classes = {Match.class, Set.class, SetAnnotation.class, SetDefinition.class, MatchContender.class, Contender.class})
+@RealmModule(library = true, classes = {Match.class, Set.class, SetAnnotation.class, SetDefinition.class, MatchContender.class, Contender.class})
 public class PlayoffDataModule {
 
     public static RandomBasedGenerator UUIDGenerator = Generators.randomBasedGenerator(new Random(1));

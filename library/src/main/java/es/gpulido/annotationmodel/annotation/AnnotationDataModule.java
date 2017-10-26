@@ -29,7 +29,7 @@ import timber.log.Timber;
 /**
  * Created by gpt on 23/05/16.
  */
-@RealmModule(library = false, classes = {Annotation.class, AnnotationValue.class, AnnotationTotalValue.class, Annotator.class, ContenderTotalValue.class, Contender.class, End.class, Letter.class,
+@RealmModule(library = true, classes = {Annotation.class, AnnotationValue.class, AnnotationTotalValue.class, Annotator.class, ContenderTotalValue.class, Contender.class, End.class, Letter.class,
         Parapet.class, Round.class,  Tournament.class, AnnotationServer.class})
 public class AnnotationDataModule {
 

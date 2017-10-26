@@ -26,7 +26,7 @@ import io.realm.annotations.RealmModule;
 /**
  * Created by gpt on 22/05/16.
  */
-@RealmModule(library = false, classes = {BowConfiguration.class})
+@RealmModule(library = true, classes = {BowConfiguration.class})
 public class TrainingDataModule {
 
     public static  RandomBasedGenerator UUIDGenerator = Generators.randomBasedGenerator(new Random(1));

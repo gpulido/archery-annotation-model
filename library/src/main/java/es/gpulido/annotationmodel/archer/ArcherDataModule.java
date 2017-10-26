@@ -28,7 +28,7 @@ import timber.log.Timber;
 /**
  * Created by gpt on 22/05/16.
  */
-@RealmModule(library = false, classes = {Archer.class, Club.class, Gender.class, ShotField.class})
+@RealmModule(library = true, classes = {Archer.class, Club.class, Gender.class, ShotField.class})
 public class ArcherDataModule {
 
     public static  RandomBasedGenerator UUIDGenerator = Generators.randomBasedGenerator(new Random(1000));

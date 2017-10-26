@@ -26,7 +26,7 @@ import io.realm.annotations.RealmModule;
 /**
  * Created by gpt on 22/05/16.
  */
-@RealmModule(library = false, classes = {Timer.class, TimerOrder.class, TournamentTimerTemplate.class})
+@RealmModule(library = true, classes = {Timer.class, TimerOrder.class, TournamentTimerTemplate.class})
 public class TimerDataModule {
 
     public static  RandomBasedGenerator UUIDGenerator = Generators.randomBasedGenerator(new Random(1));

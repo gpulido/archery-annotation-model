@@ -28,7 +28,7 @@ import timber.log.Timber;
 /**
  * Created by gpt on 22/05/16.
  */
-@RealmModule(library = false, classes = {Competition.class, CompetitionCategory.class, Template.class, Meeting.class, Award.class})
+@RealmModule(library = true, classes = {Competition.class, CompetitionCategory.class, Template.class, Meeting.class, Award.class})
 public class CompetitionDataModule {
 
     public static  RandomBasedGenerator UUIDGenerator = Generators.randomBasedGenerator(new Random(1));

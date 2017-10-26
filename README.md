@@ -15,6 +15,6 @@ and:
 
 ```gradle
 dependencies {
-    compile 'com.github.jitpack:archery-annotation-model:{latest version}'
+    compile 'com.github.gpulido:archery-annotation-model:{latest version}'
 }
 ```

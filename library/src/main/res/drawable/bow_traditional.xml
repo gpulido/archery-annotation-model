@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Gabriel Pulido
+  ~
+  ~ This file is part of Archery Annotation.
+  ~
+  ~  Archery Annotation is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License version 2
+  ~  as published by the Free Software Foundation.
+  ~
+  ~  Archery Annotation is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="106.29875dp"
+    android:height="17.543751dp"
+    android:viewportWidth="106.29875"
+    android:viewportHeight="17.543751">
+
+    <group>
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 244.36634,590.67834 c 0.625,2.34125 7.30625,2.37625 9.16375,3.66625
+5.7625,1.34125 7.37375,2.33875 11.73,5.2225 1.19875,0.79375 10.62875,6.56375
+10.72125,6.68875 l 11.45375,-0.4575 -0.01,-1.03375 -7.32,0.575 c -4.845,0.4225
+-12.58125,-5.635 -15.6675,-7.7 -3.26875,-2.18625 -12.43375,-6.39375
+-17.2225,-6.52875 l -0.55875,-1.80625 -1.74625,0.0325 -0.54375,1.34125 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 244.36634,590.67834 c -0.8275,0.55375 -0.80625,0.91625 -1.83375,0.91625 l
+-2.29,0 c -2.2375,0 -4.30875,-2.2525 -6.415,-0.91625 l 0.91625,0 0,1.8325 c
+2.89,-1.52875 2.055,-0.84125 1.78125,1.71625 l -1.78125,1.03375 c 2.49625,0
+3.39625,-0.40875 5.05625,-0.48125 2.64,-0.115 3.435,1.3975 4.56625,1.3975 l
+1.37375,0 c 1.83375,0 3.26125,-0.77375 3.66375,-2.27375 l 4.12625,0.44125 c
+-1.8575,-1.29 -8.53875,-1.325 -9.16375,-3.66625 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 233.82759,590.67834 c -5.72875,0 -6.11625,1.8325 -9.62125,1.8325 l -0.9175,0 c
+-1.21125,0 -2.97625,-2.0225 -3.665,-2.74875 l 0,1.375 c 2.62625,0.87
+-3.27875,1.61625 -4.58125,2.74875 0.785,1.485 2.39125,2.74875 4.58125,2.74875
+2.06,0 3.43875,-1.37375 5.49875,-1.37375 1.36,0 1.225,0.91625 3.20625,0.91625
+0.68375,0 2.79125,-2.74875 4.12375,-2.74875 0.92375,0 0.69375,1.25375
+2.29125,1.8325 l 1.78125,-1.03375 c 0.27375,-2.5575 1.10875,-3.245
+-1.78125,-1.71625 l 0,-1.8325 -0.91625,0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 219.62384,589.76209 l -2.28625,0.475 0.42875,1.3675 c -12.84875,1.06125
+-21.89625,13.735 -29.29875,13.735 l -7.33125,0 0,0.91625 8.2475,0.45875 c
+1.785,-1.13375 3.9,-1.21875 6.5975,-3.02375 2.19625,-1.46875 3.425,-2.5725
+5.50375,-4.1175 2.51625,-1.87125 9.78625,-5.60375 13.5575,-5.6875 1.3025,-1.1325
+7.2075,-1.87875 4.58125,-2.74875 l 0,-1.375 Z" />
+        <path
+            android:fillColor="#000000"
+            android:strokeColor="#000000"
+            android:strokeWidth="0.27000001"
+            android:pathData="M 189.38384,606.71334 l 86.5975,-0.4575" />
+    </group>
+</vector>

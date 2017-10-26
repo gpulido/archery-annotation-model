@@ -1,0 +1,65 @@
+/*
+ * Copyright (C) 2017 Gabriel Pulido
+ *
+ * This file is part of Archery Annotation.
+ *
+ *  Archery Annotation is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License version 2
+ *  as published by the Free Software Foundation.
+ *
+ *  Archery Annotation is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ */
+
+apply plugin: 'com.android.library'
+apply plugin: 'realm-android'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.gpulido'
+
+android {
+    compileSdkVersion rootProject.compileSdkVersion
+    buildToolsVersion rootProject.buildToolsVersion
+
+    publishNonDefault true
+
+    defaultConfig {
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        versionCode 1
+        versionName "1.0.0"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion '26.0.2'
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile "com.android.support:appcompat-v7:${versions.supportLib}"
+    compile "com.google.code.gson:gson:${versions.gson}"
+    compile 'com.jakewharton.timber:timber:4.5.1'
+    compile group: 'com.fasterxml.uuid', name: 'java-uuid-generator', version: '3.1.4'
+    compile "com.annimon:stream:${versions.annimonStreams}"
+    compile 'net.objecthunter:exp4j:0.4.8'
+    compile 'com.jakewharton.hugo:hugo-annotations:1.2.1'
+    compile "com.android.support:percent:${versions.supportLib}"
+}
+realm {
+    syncEnabled = true
+}

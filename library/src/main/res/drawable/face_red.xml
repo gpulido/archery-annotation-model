@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (C) 2017 Gabriel Pulido
+  ~
+  ~ This file is part of Archery Annotation.
+  ~
+  ~  Archery Annotation is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License version 2
+  ~  as published by the Free Software Foundation.
+  ~
+  ~  Archery Annotation is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false"
+        android:state_focused="false"
+        android:state_activated="false"
+        android:drawable="@color/face_red">
+    </item>
+
+    <item android:state_selected="true"
+    android:drawable="@color/gray" />
+    <item android:state_focused="true"
+        android:drawable="@color/gray" />
+    <item android:state_activated="true"
+        android:drawable="@color/gray" />
+</selector>

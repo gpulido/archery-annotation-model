@@ -1,0 +1,31 @@
+<!--
+  ~ Copyright (C) 2017 Gabriel Pulido
+  ~
+  ~ This file is part of Archery Annotation.
+  ~
+  ~  Archery Annotation is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License version 2
+  ~  as published by the Free Software Foundation.
+  ~
+  ~  Archery Annotation is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  -->
+
+<resources>
+    <string name="app_name">annotationmodel</string>
+    <string name="number_4">4</string>
+    <string name="number_3">3</string>
+    <string name="number_2">2</string>
+    <string name="number_1">1</string>
+    <string name="miss_char">M</string>
+    <string name="number_8">8</string>
+    <string name="superten_x">X</string>
+    <string name="number_10">10</string>
+    <string name="number_9">9</string>
+    <string name="number_7">7</string>
+    <string name="number_6">6</string>
+    <string name="number_5">5</string>
+</resources>

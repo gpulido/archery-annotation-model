@@ -1,0 +1,79 @@
+<!--
+  ~ Copyright (C) 2017 Gabriel Pulido
+  ~
+  ~ This file is part of Archery Annotation.
+  ~
+  ~  Archery Annotation is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License version 2
+  ~  as published by the Free Software Foundation.
+  ~
+  ~  Archery Annotation is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="1220"
+    android:viewportHeight="1220">
+        <path
+            android:fillColor="@color/face_white"
+            android:strokeColor="#000000"
+            android:strokeWidth="2"
+            android:pathData ="M1,610a609,609 0 1,0 1218,0a609,609 0 1,0 -1218,0"
+            />
+        <path
+            android:fillColor="@color/face_white"
+            android:strokeColor="#000000"
+            android:strokeWidth="2"
+            android:pathData ="M62,610a548,548 0 1,0 1096,0a548,548 0 1,0 -1096,0"
+            />
+        <path
+            android:fillColor="@color/face_black"
+            android:strokeColor="#000000"
+            android:strokeWidth="2"
+            android:pathData="M123,610a487,487 0 1,0 974,0a487,487 0 1,0 -974,0" />
+        <path
+            android:fillColor="@color/face_black"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="2"
+            android:pathData="M184,610a426,426 0 1,0 852,0a426,426 0 1,0 -852,0" />
+        <path
+            android:fillColor="@color/face_blue"
+            android:strokeColor="#000000"
+            android:strokeWidth="2"
+            android:pathData="M245,610a365,365 0 1,0 730,0a365,365 0 1,0 -730,0" />
+        <path
+            android:fillColor="@color/face_blue"
+            android:strokeColor="#000000"
+            android:strokeWidth="2"
+            android:pathData="M306,610a304,304 0 1,0 608,0a304,304 0 1,0 -608,0" />
+        <path
+            android:fillColor="@color/face_red"
+            android:strokeColor="#000000"
+            android:strokeWidth="2"
+            android:pathData="M367,610a243,243 0 1,0 486,0a243,243 0 1,0 -486,0" />
+        <path
+            android:fillColor="@color/face_red"
+            android:strokeColor="#000000"
+            android:strokeWidth="2"
+            android:pathData="M428,610a182,182 0 1,0 364,0a182,182 0 1,0 -364,0" />
+        <path
+            android:fillColor="@color/face_yellow"
+            android:strokeColor="#000000"
+            android:strokeWidth="2"
+            android:pathData="M489,610a121,121 0 1,0 242,0a121,121 0 1,0 -242,0" />
+        <path
+            android:fillColor="@color/face_yellow"
+            android:strokeColor="#000000"
+            android:strokeWidth="2"
+            android:pathData="M550,610a60,60 0 1,0 120,0a60,60 0 1,0 -120,0" />
+        <path
+            android:fillColor="@color/face_yellow"
+            android:strokeColor="#000000"
+            android:strokeWidth="2"
+            android:pathData="M580.5,610a29.5,29.5 0 1,0 59,0a29.5,29.5 0 1,0 -59,0" />
+</vector>

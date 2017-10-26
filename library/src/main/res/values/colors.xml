@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Gabriel Pulido
+  ~
+  ~ This file is part of Archery Annotation.
+  ~
+  ~  Archery Annotation is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License version 2
+  ~  as published by the Free Software Foundation.
+  ~
+  ~  Archery Annotation is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  -->
+
+<resources>
+
+    <color name="gray">#808080</color>
+    <color name="light_gray">#ffefefef</color>
+    <color name="lighter_gray">#64dddddd</color>
+    <!-- Face colors-->
+    <color name="face_yellow">#FFEE58</color>
+    <color name="face_red">#E84E40</color>
+    <color name="face_blue">#29B6F6</color>
+    <color name="face_black">#000000</color>
+    <color name="face_white">#FFFFFF</color>
+    <color name="face_transparent">#00FFFFFF</color>
+    <color name="bpTransparent">#00FFFFFF</color>
+
+
+</resources>

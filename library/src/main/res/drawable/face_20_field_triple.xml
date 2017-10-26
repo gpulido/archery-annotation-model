@@ -1,0 +1,148 @@
+<!--
+  ~ Copyright (C) 2017 Gabriel Pulido
+  ~
+  ~ This file is part of Archery Annotation.
+  ~
+  ~  Archery Annotation is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License version 2
+  ~  as published by the Free Software Foundation.
+  ~
+  ~  Archery Annotation is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="80dp"
+        android:viewportWidth="200.0"
+        android:viewportHeight="640.001">
+    <path
+        android:pathData="m199.84,540.02a99.84,99.84 0,0 1,-199.67 0,99.84 99.84,0 1,1 199.67,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#ffffff"
+        android:fillColor="#000000"
+        android:strokeWidth="0"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m179.87,540.07a79.87,79.87 0,0 1,-159.74 0,79.87 79.87,0 1,1 159.74,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#ffffff"
+        android:fillColor="#000000"
+        android:strokeWidth="1.13385827"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m159.9,540.05a59.9,59.9 0,0 1,-119.8 0,59.9 59.9,0 1,1 119.8,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#ffffff"
+        android:fillColor="#000000"
+        android:strokeWidth="1.13385827"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m139.92,540.06a39.93,39.92 0,1 1,-79.87 0,39.93 39.92,0 1,1 79.87,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#ffffff"
+        android:fillColor="#000000"
+        android:strokeWidth="1.13385827"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m119.95,540.05a19.97,19.97 0,1 1,-39.93 0,19.97 19.97,0 1,1 39.93,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#000000"
+        android:fillColor="#ffe552"
+        android:strokeWidth="0.06546834"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m109.95,540.05a9.98,9.98 0,1 1,-19.96 0,9.98 9.98,0 1,1 19.96,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#000000"
+        android:fillColor="#ffe552"
+        android:strokeWidth="0.75590551"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m199.84,320.02a99.84,99.84 0,0 1,-199.67 0,99.84 99.84,0 1,1 199.67,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#ffffff"
+        android:fillColor="#000000"
+        android:strokeWidth="0"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m179.87,320.07a79.87,79.87 0,0 1,-159.74 0,79.87 79.87,0 1,1 159.74,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#ffffff"
+        android:fillColor="#000000"
+        android:strokeWidth="1.13385827"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m159.9,320.05a59.9,59.9 0,0 1,-119.8 0,59.9 59.9,0 1,1 119.8,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#ffffff"
+        android:fillColor="#000000"
+        android:strokeWidth="1.13385827"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m139.92,320.06a39.93,39.92 0,1 1,-79.87 0,39.93 39.92,0 1,1 79.87,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#ffffff"
+        android:fillColor="#000000"
+        android:strokeWidth="1.13385827"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m119.95,320.05a19.97,19.97 0,1 1,-39.93 0,19.97 19.97,0 1,1 39.93,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#000000"
+        android:fillColor="#ffe552"
+        android:strokeWidth="0.06546834"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m109.95,320.05a9.98,9.98 0,1 1,-19.96 0,9.98 9.98,0 1,1 19.96,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#000000"
+        android:fillColor="#ffe552"
+        android:strokeWidth="0.75590551"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m199.84,100.02a99.84,99.84 0,0 1,-199.67 0,99.84 99.84,0 1,1 199.67,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#ffffff"
+        android:fillColor="#000000"
+        android:strokeWidth="0"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m179.87,100.07a79.87,79.87 0,0 1,-159.74 0,79.87 79.87,0 1,1 159.74,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#ffffff"
+        android:fillColor="#000000"
+        android:strokeWidth="1.13385827"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m159.9,100.05a59.9,59.9 0,0 1,-119.8 0,59.9 59.9,0 1,1 119.8,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#ffffff"
+        android:fillColor="#000000"
+        android:strokeWidth="1.13385827"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m139.92,100.06a39.93,39.92 0,0 1,-79.87 0,39.93 39.92,0 1,1 79.87,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#ffffff"
+        android:fillColor="#000000"
+        android:strokeWidth="1.13385827"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m119.95,100.05a19.97,19.97 0,1 1,-39.93 0,19.97 19.97,0 1,1 39.93,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#000000"
+        android:fillColor="#ffe552"
+        android:strokeWidth="0.06425197"
+        android:strokeAlpha="1"/>
+    <path
+        android:pathData="m109.95,100.05a9.98,9.98 0,1 1,-19.96 0,9.98 9.98,0 1,1 19.96,0z"
+        android:fillAlpha="1"
+        android:strokeColor="#000000"
+        android:fillColor="#ffe552"
+        android:strokeWidth="0.75590551"
+        android:strokeAlpha="1"/>
+</vector>

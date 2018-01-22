@@ -23,5 +23,5 @@ package es.gpulido.annotationmodel.Interfaces;
 public interface IHasPrimarykey {
     String getUUID();
 
-    void setUUID(String UUID);
+    //void setUUID(String UUID);
 }

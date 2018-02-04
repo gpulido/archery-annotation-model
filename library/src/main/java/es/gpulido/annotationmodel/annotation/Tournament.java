@@ -68,8 +68,8 @@ public class Tournament extends RealmObject implements ICanBeDeleted, IHasPrimar
     @LinkingObjects("tournament")
     public final RealmResults<Contender> contenders = null;
 
-    @Deprecated
     private boolean isGenerated;
+
     @Deprecated
     private boolean isShared;
 

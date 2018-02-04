@@ -26,12 +26,14 @@ import java.util.UUID;
 import es.gpulido.annotationmodel.annotation.End;
 import es.gpulido.annotationmodel.annotation.Letter;
 import es.gpulido.annotationmodel.annotation.Parapet;
+import es.gpulido.annotationmodel.annotation.ParapetFields;
 import es.gpulido.annotationmodel.annotation.Round;
 import es.gpulido.annotationmodel.annotation.Tournament;
 import es.gpulido.annotationmodel.archer.Club;
 import es.gpulido.annotationmodel.competition.Competition;
 import es.gpulido.annotationmodel.serie.SerieRound;
 import io.realm.Realm;
+import io.realm.RealmResults;
 import timber.log.Timber;
 
 /**
@@ -137,7 +139,8 @@ public class TournamentHelper {
 
     }
 
-    private static void GenerateParapetsBasedOnShotField(@NonNull Realm realm, @NonNull Tournament tournament) {
+    public static void GenerateParapetsBasedOnShotField(@NonNull Realm realm, @NonNull Tournament tournament) {
+
         ArrayList<Letter> lettersArrayList = new ArrayList<>();
 
         for(int k=0; k< tournament.getField().getNumParapetsMax(); k++)
@@ -145,8 +148,6 @@ public class TournamentHelper {
             Parapet parapet = realm.createObject(Parapet.class, UUID.randomUUID().toString());
             parapet.setOrder(k);
             parapet.setTournament(tournament);
-            //tournament.getParapets().add(parapet);
-
             //Creation of the Letters for each parapet
             List<String> letters = tournament.getField().getFieldLetters();
             for (String let: letters) {

@@ -109,7 +109,7 @@ public class RealmHelper {
     private static SyncUser getCurrentUser()
     {
         try {
-            return SyncUser.currentUser();
+            return SyncUser.current();
         }
         catch (Exception ex) {
             return null;
@@ -121,7 +121,7 @@ public class RealmHelper {
     {
         if (getCurrentUser() != null)
         {
-            return realm.where(AnnotationServer.class).equalTo("userIdentity", SyncUser.currentUser().getIdentity()).findFirst();
+            return realm.where(AnnotationServer.class).equalTo("userIdentity", SyncUser.current().getIdentity()).findFirst();
         }
         return null;
     }
@@ -156,7 +156,7 @@ public class RealmHelper {
                 return as.getConfiguration(null);
 
             if (getCurrentUser() != null)
-                return SyncManager.getSession((SyncConfiguration) as.getConfiguration(SyncUser.currentUser())).getConfiguration();
+                return SyncManager.getSession((SyncConfiguration) as.getConfiguration(SyncUser.current())).getConfiguration();
 
             //we need to ask the user to relogin
             return null;
@@ -192,7 +192,7 @@ public class RealmHelper {
 
     public static void logoutActiveUser() {
         if (getCurrentUser() != null) {
-            SyncUser.currentUser().logout();
+            SyncUser.current().logOut();
 
         }
 

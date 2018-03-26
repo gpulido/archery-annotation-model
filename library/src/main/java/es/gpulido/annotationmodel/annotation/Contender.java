@@ -164,7 +164,8 @@ public class Contender extends RealmObject implements ICanBeDeleted, IHasPrimary
     {
         RealmResults<AnnotationTotalValue> totalValues = realm.where(AnnotationTotalValue.class)
                 .equalTo("annotation.contender.UUID", getUUID())
-                .findAllSorted("totalDefinition.order");
+                .sort("totalDefinition.order")
+                .findAll();
         Stream.of(totalValues)
                 .groupBy(AnnotationTotalValue::getTotalDefinition)
                 .forEach(kv -> {
@@ -353,12 +354,12 @@ public class Contender extends RealmObject implements ICanBeDeleted, IHasPrimary
 
     public int contenderTotalByIndex(int index) {
         if (totals.size() <= index ) return 0;
-        return (int)totals.where().findAllSorted("totalDefinition.order").get(index).getDoubleFieldValue();
+        return (int)totals.where().sort("totalDefinition.order").findAll().get(index).getDoubleFieldValue();
     }
 
     public String contenderTotalDescriptionByIndex(int index) {
         if (totals.size() <= index ) return "";
-        return totals.where().findAllSorted("totalDefinition.order").get(index).getTotalDefinition().getShortDescription();
+        return totals.where().sort("totalDefinition.order").findAll().get(index).getTotalDefinition().getShortDescription();
     }
 
 

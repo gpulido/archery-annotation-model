@@ -258,10 +258,13 @@ public class ContenderHelper {
 
         return Stream.of(totals).map(total ->
 
-                contender.getCompetition().getAwards().where()
+                contender.getCompetition()
+                        .getAwards()
+                        .where()
                         .equalTo("totalNameString", total.getKey().getName())
                         .lessThanOrEqualTo("minTotalValue", total.getValue().intValue())
-                        .findAllSorted("minTotalValue")
+                        .sort("minTotalValue")
+                        .findAll()
 
         ).filter(r -> r.size() > 0).map(RealmResults::last).collect(Collectors.toList());
 

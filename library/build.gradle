@@ -29,8 +29,8 @@ android {
     defaultConfig {
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
-        versionCode 7
-        versionName "0.0.7"
+        versionCode 8
+        versionName "0.0.8"
         vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
@@ -46,19 +46,19 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    buildToolsVersion rootProject.buildToolsVersion
+
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile "com.android.support:appcompat-v7:${versions.supportLib}"
-    compile "com.google.code.gson:gson:${versions.gson}"
-    compile 'com.jakewharton.timber:timber:4.5.1'
-    compile group: 'com.fasterxml.uuid', name: 'java-uuid-generator', version: '3.1.4'
-    compile "com.annimon:stream:${versions.annimonStreams}"
-    compile 'net.objecthunter:exp4j:0.4.8'
-    compile 'com.jakewharton.hugo:hugo-annotations:1.2.1'
-    compile "com.android.support:percent:${versions.supportLib}"
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "com.android.support:appcompat-v7:${versions.supportLib}"
+    implementation "com.google.code.gson:gson:${versions.gson}"
+    implementation 'com.jakewharton.timber:timber:4.5.1'
+    implementation group: 'com.fasterxml.uuid', name: 'java-uuid-generator', version: '3.1.4'
+    implementation "com.annimon:stream:${versions.annimonStreams}"
+    implementation 'net.objecthunter:exp4j:0.4.8'
+    implementation 'com.jakewharton.hugo:hugo-annotations:1.2.1'
+    implementation "com.android.support:percent:${versions.supportLib}"
     annotationProcessor 'dk.ilios:realmfieldnameshelper:1.1.1'
 }
 

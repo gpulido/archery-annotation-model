@@ -26,7 +26,7 @@ import io.realm.annotations.PrimaryKey;
 /**
  * Created by gpt on 13/11/14.
  */
-public class AnnotationTotalValue extends RealmObject  implements ITotalValue {
+public class AnnotationTotalValue extends RealmObject  implements ITotalValue, IHasPrimarykey {
     @PrimaryKey
     private String UUID;
 

@@ -18,6 +18,7 @@ package es.gpulido.annotationmodel.annotation;
 
 import java.util.Map;
 
+import es.gpulido.annotationmodel.Interfaces.IHasPrimarykey;
 import es.gpulido.annotationmodel.Interfaces.ITotalValue;
 import es.gpulido.annotationmodel.target.TotalDefinition;
 import io.realm.RealmObject;

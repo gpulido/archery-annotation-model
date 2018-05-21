@@ -2,7 +2,7 @@
 
 buildscript {
 
-    ext.gradle_version = '3.2.0-alpha04'
+    ext.gradle_version = '3.2.0-alpha15'
 
     ext {
         minSdkVersion = 19
@@ -10,7 +10,7 @@ buildscript {
         compileSdkVersion = 27
         buildToolsVersion = '27.0.3'
 
-        versions = [supportLib: "27.1.0",
+        versions = [supportLib: "27.1.1",
                     annimonStreams: "1.1.8",
                     gson: "2.7"]
     }
@@ -22,8 +22,8 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.0-alpha04'
-        classpath "io.realm:realm-gradle-plugin:5.0.0"
+        classpath 'com.android.tools.build:gradle:3.2.0-alpha15'
+        classpath "io.realm:realm-gradle-plugin:5.1.0"
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
 
         // NOTE: Do not place your application dependencies here; they belong
